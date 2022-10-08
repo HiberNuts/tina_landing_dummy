@@ -26,16 +26,16 @@
   padding: 5px;
   
   border-radius: 20px;
-  width: 70%;
+  width: 60%;
 }
 
 .top-bar > p{
-  font-size: 20px;
+  font-size: 18px;
   
 }
 
 .top-bar>h3{
-  font-size: 30px;
+  font-size: 25px;
   
 }
 
@@ -65,4 +65,21 @@ a{
 .contact>div span{
   margin-left: 5px;
   margin-right: 5px;
+}
+
+@media only screen and (max-width: 550px) {
+  .top-bar > p{
+    font-size: 17px;
+    
+  }
+  
+  .top-bar>h3{
+    font-size: 20px;
+    
+  }
+  
+.top-bar{
+ 
+  width: 90%;
+}
 }
