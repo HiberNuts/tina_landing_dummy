@@ -80,6 +80,9 @@ a{
   margin-left: 5px;
   margin-right: 5px;
 }
+.details2{
+  margin-bottom: -40px;
+}
 
 
 @media only screen and (max-width: 550px) {
@@ -99,5 +102,8 @@ a{
   }
   .App{
     background-image: url("./bg2.svg");
+  }
+  .details2{
+    margin-bottom: -7px;
   }
 }
