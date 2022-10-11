@@ -68,20 +68,15 @@ a{
 }
 .contact{
   display: flex;
-  align-items: flex-start;
-  justify-content:start;
+  align-items: center;
+  justify-content:center;
 }
 .contact>div{
-  display: flex;
-  align-items: flex-start;
-  justify-content:start;
+  width:100%;
 }
 .contact>div span{
   margin-left: 5px;
   margin-right: 5px;
-}
-.details2{
-  margin-bottom: -40px;
 }
 
 

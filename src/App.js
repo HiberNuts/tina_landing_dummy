@@ -38,32 +38,28 @@ function App() {
         <span>Stay tuned</span> to start your online shopping spree.
         <br /> Or <br /> <span>Walk into</span> our local store located @ <br />
         112a Nehru street, Alwar Thiru Nagar, Chennai - 600087
-        <br /> Or <br /> <span>Contact Us</span>
+        <br /> Or <br />
       </div>
       <div className="contact">
-        <div style={{ marginLeft: "-36px" }}>
-          <span>
-            <img src={phone} />
-          </span>
-          <span>
-            <img src={india} />
-          </span>
-          <p style={{ marginLeft: "9px" }}>+91 7200060540</p>
-        </div>
+        <span style={{ marginBottom: "10px" }}>Contact Us</span>
         <div>
-          <span>
-            <img src={america} />
-          </span>
-          <span></span>
-          +1 412-251-1363
+          <img src={phone} />
+
+          <img style={{ margin: "0px 10px 0px 10px" }} src={india} />
+
+          <p>+91 7200060540</p>
         </div>
-        <div>
-          <a href="https://api.whatsapp.com/send?phone=8018082273">
-            <span style={{ marginLeft: "-31px" }}>
-              <img src={whatsapp} />
-            </span>{" "}
-            <span style={{ marginRight: "" }}></span>
-            <p style={{ marginLeft: "35px" }}>+1 801-808-2273</p>
+        <div style={{ display: "flex", alignItems: "center", justifyContent: "flex-end" }}>
+          <img style={{ margin: "0px 19px 0px 0px" }} src={america} />
+          <p>+1 412-251-1363</p>
+        </div>
+        <div style={{ width: "100%" }}>
+          <a
+            style={{ width: "100%", display: "flex", justifyContent: "space-between", alignItems: "center" }}
+            href="https://api.whatsapp.com/send?phone=8018082273"
+          >
+            <img src={whatsapp} />
+            <p>+1 8018082273</p>
           </a>
         </div>
       </div>
