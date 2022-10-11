@@ -17,7 +17,7 @@ function App() {
       <img src={image} />
       <div className="details1">
         Untill then, <span>preview our latest</span> collections @ <br />
-        <a href="https://www.instagram.com/tina_rosario_the_design_house/?r=nametag">
+        <a style={{ marginTop: "10px" }} href="https://www.instagram.com/tina_rosario_the_design_house/?r=nametag">
           <span>
             <img src={insta} />
           </span>
@@ -38,28 +38,27 @@ function App() {
         <br /> Or <br /> <span>Contact Us</span>
       </div>
       <dic className="contact">
-        <div>
-          {" "}
+        <div style={{ marginLeft: "-36px" }}>
           <span>
-            {" "}
             <img src={phone} />
-          </span>{" "}
+          </span>
           <span>
-            {" "}
             <img src={india} />
-          </span>{" "}
+          </span>
           +91 7200060540
         </div>
         <div>
           <span>
             <img src={america} />
           </span>
+          <span></span>
           +1 412-251-1363
         </div>
         <div>
           <span>
             <img src={whatsapp} />
           </span>{" "}
+          <span></span>
           +1 801-808-2273
         </div>
       </dic>
