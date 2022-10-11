@@ -50,8 +50,8 @@ function App() {
           <p>+91 7200060540</p>
         </div>
         <div style={{ display: "flex", alignItems: "center", justifyContent: "flex-end" }}>
-          <img style={{ margin: "0px 19px 0px 0px" }} src={america} />
-          <p>+1 412-251-1363</p>
+          <img style={{ margin: "0px 10px 0px 0px" }} src={america} />
+          <p style={{ marginRight: "9px" }}>+1 412-251-1363</p>
         </div>
         <div style={{ width: "100%" }}>
           <a
@@ -59,7 +59,7 @@ function App() {
             href="https://api.whatsapp.com/send?phone=8018082273"
           >
             <img src={whatsapp} />
-            <p>+1 8018082273</p>
+            <p style={{ marginRight: "16px" }}>+1 8018082273</p>
           </a>
         </div>
       </div>
