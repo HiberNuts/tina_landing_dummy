@@ -24,7 +24,10 @@ function App() {
           tina_rosario_the_design_house
         </a>
         <br />
-        <a href="https://www.facebook.com/people/Tina-Rosario-The-Design-House/100086487516274/">
+        <a
+          style={{ marginTop: "-25px" }}
+          href="https://www.facebook.com/people/Tina-Rosario-The-Design-House/100086487516274/"
+        >
           <span>
             <img src={facebook} />
           </span>
@@ -37,7 +40,7 @@ function App() {
         112a Nehru street, Alwar Thiru Nagar, Chennai - 600087
         <br /> Or <br /> <span>Contact Us</span>
       </div>
-      <dic className="contact">
+      <div className="contact">
         <div style={{ marginLeft: "-36px" }}>
           <span>
             <img src={phone} />
@@ -45,7 +48,7 @@ function App() {
           <span>
             <img src={india} />
           </span>
-          +91 7200060540
+          <p style={{ marginLeft: "9px" }}>+91 7200060540</p>
         </div>
         <div>
           <span>
@@ -55,13 +58,15 @@ function App() {
           +1 412-251-1363
         </div>
         <div>
-          <span>
-            <img src={whatsapp} />
-          </span>{" "}
-          <span></span>
-          +1 801-808-2273
+          <a href="https://api.whatsapp.com/send?phone=8018082273">
+            <span style={{ marginLeft: "-31px" }}>
+              <img src={whatsapp} />
+            </span>{" "}
+            <span style={{ marginRight: "" }}></span>
+            <p style={{ marginLeft: "35px" }}>+1 801-808-2273</p>
+          </a>
         </div>
-      </dic>
+      </div>
     </div>
   );
 }

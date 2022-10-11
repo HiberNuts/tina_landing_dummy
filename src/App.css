@@ -56,6 +56,7 @@ span{
 }
 .details1>a>span{
   margin-right: 8px;
+  margin-top: 3px;
 }
 a{
   
@@ -80,9 +81,6 @@ a{
   margin-right: 5px;
 }
 
-.details2{
-  margin-bottom: -10px;
-}
 
 @media only screen and (max-width: 550px) {
   .top-bar > p{
@@ -100,7 +98,6 @@ a{
     width: 90%;
   }
   .App{
-    background-position: center;
- 
+    background-image: url("./bg2.svg");
   }
 }
