@@ -53,7 +53,7 @@ function App() {
           <img style={{ margin: "0px 10px 0px 0px" }} src={america} />
           <p style={{ marginRight: "10px" }}>+1 412-251-1363</p>
         </div>
-        <div style={{ width: "100%" }}>
+        <div style={{ width: "100%", marginBottom: "20px" }}>
           <a
             style={{ width: "100%", display: "flex", justifyContent: "space-between", alignItems: "center" }}
             href="https://api.whatsapp.com/send?phone=9916818637"
