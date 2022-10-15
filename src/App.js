@@ -59,7 +59,7 @@ function App() {
             href="https://api.whatsapp.com/send?phone=9916818637"
           >
             <img src={whatsapp} />
-            <p style={{ marginRight: "16px" }}>+91 99168 18637</p>
+            <p style={{ marginRight: "5px" }}>+91 99168 18637</p>
           </a>
         </div>
       </div>
