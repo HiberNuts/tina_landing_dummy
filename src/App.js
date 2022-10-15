@@ -15,7 +15,7 @@ function App() {
         <h3>Website Launch on Nov. 10th 2022</h3>
       </div>
       <img style={{ marginTop: "50px" }} src={image} />
-      <div style={{ marginTop: "40px" }} className="details1">
+      <div style={{ marginTop: "30px" }} className="details1">
         Untill then, <span>preview our latest</span> collections @ <br />
         <a style={{ marginTop: "10px" }} href="https://www.instagram.com/tina_rosario_the_design_house/?r=nametag">
           <span>
