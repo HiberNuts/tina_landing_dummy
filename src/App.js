@@ -56,10 +56,10 @@ function App() {
         <div style={{ width: "100%" }}>
           <a
             style={{ width: "100%", display: "flex", justifyContent: "space-between", alignItems: "center" }}
-            href="https://api.whatsapp.com/send?phone=8018082273"
+            href="https://api.whatsapp.com/send?phone=9916818637"
           >
             <img src={whatsapp} />
-            <p style={{ marginRight: "16px" }}>+1 8018082273</p>
+            <p style={{ marginRight: "16px" }}>+91 99168 18637</p>
           </a>
         </div>
       </div>
