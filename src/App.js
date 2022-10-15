@@ -14,8 +14,8 @@ function App() {
         <p>Thank you for hopping on.</p>
         <h3>Website Launch on Nov. 10th 2022</h3>
       </div>
-      <img src={image} />
-      <div className="details1">
+      <img style={{ marginTop: "50px" }} src={image} />
+      <div style={{ marginTop: "40px" }} className="details1">
         Untill then, <span>preview our latest</span> collections @ <br />
         <a style={{ marginTop: "10px" }} href="https://www.instagram.com/tina_rosario_the_design_house/?r=nametag">
           <span>
@@ -34,11 +34,11 @@ function App() {
           Tina Rosario - The Design House
         </a>
       </div>
-      <div className="details2">
+      <div style={{ marginTop: "20px" }} className="details2">
         <span>Stay tuned</span> to start your online shopping spree.
         <br /> Or <br /> <span>Walk into</span> our local store located @ <br />
         112a Nehru street, Alwar Thiru Nagar, Chennai - 600087
-        <br /> Or <br />
+        <br /> Or
       </div>
       <div className="contact">
         <span style={{ marginBottom: "10px" }}>Contact Us</span>
@@ -51,7 +51,7 @@ function App() {
         </div>
         <div style={{ display: "flex", alignItems: "center", justifyContent: "flex-end" }}>
           <img style={{ margin: "0px 10px 0px 0px" }} src={america} />
-          <p style={{ marginRight: "9px" }}>+1 412-251-1363</p>
+          <p style={{ marginRight: "10px" }}>+1 412-251-1363</p>
         </div>
         <div style={{ width: "100%" }}>
           <a
@@ -59,7 +59,7 @@ function App() {
             href="https://api.whatsapp.com/send?phone=9916818637"
           >
             <img src={whatsapp} />
-            <p style={{ marginRight: "5px" }}>+91 99168 18637</p>
+            <p style={{ marginRight: "6px" }}>+91 99168 18637</p>
           </a>
         </div>
       </div>
